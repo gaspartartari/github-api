@@ -1,0 +1,12 @@
+header {
+    height: 62px;
+    background: var(--bg-primary-color);
+}
+
+header h1 {
+    padding: 15px 41px;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--text-tertiary-color);
+
+}

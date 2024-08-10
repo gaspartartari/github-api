@@ -1,0 +1,42 @@
+
+:root {
+  --bg-primary-color: #1890FF;
+  --bg-secondary-color: #E6F7FF;
+
+
+  --text-primary-color: black;
+  --text-secondary-color: #7E7E7E;
+  --text-tertiary-color: white;
+  --text-quaternary-color: #BFBFBF;
+}
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.desafio-container {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.desafio-btn-container {
+  width: 101px;
+ 
+
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+@media (max-width: 1350px) {
+  .desafio-container {
+    padding: 0 50px;
+  }
+}
+

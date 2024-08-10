@@ -1,0 +1,22 @@
+
+.home-card {
+    margin-top: 27px;
+    padding-left: 41px
+}
+
+.home-card-text {
+    margin-bottom: 27px;
+}
+
+.home-card-text h1 {
+    font-size: 48px;
+    font-weigth: 700;
+    margin-bottom: 10px;
+}
+
+.home-card-text p {
+    color: var(--text-secondary-color);
+    font-size: 24px;
+    font-weigth: 700px
+}
+

@@ -1,0 +1,24 @@
+.find-profile-card {
+  background: var(--bg-secondary-color);
+  height: 270px;
+  margin-top: 54px;
+  border-radius: 16px;
+  padding: 54px 31px;
+}
+
+.find-profile-card h1 {
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.find-profile-input {
+  border: 1px solid var(--text-quaternary-color);
+  border-radius: 4px;
+  padding: 8px 17px;
+  margin-bottom: 24px;
+}
+
+.find-profile-input:focus {
+  outline: none;
+}
