@@ -2,12 +2,16 @@
 :root {
   --bg-primary-color: #1890FF;
   --bg-secondary-color: #E6F7FF;
-
+  --bg-tertiary-color: #F5F5F5;
 
   --text-primary-color: black;
   --text-secondary-color: #7E7E7E;
   --text-tertiary-color: white;
   --text-quaternary-color: #BFBFBF;
+  --text-card-user-color: #737373;
+
+  --border-card-user-color: #D9D9D9;
+  
 }
 
 
@@ -26,17 +30,25 @@
 
 .desafio-btn-container {
   width: 101px;
- 
+}
 
+.button {
+  width: auto;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: var(--bg-primary-color);
+  color: var(--text-tertiary-color);
 }
 
 .no-decoration {
   text-decoration: none;
 }
 
-@media (max-width: 1350px) {
-  .desafio-container {
-    padding: 0 50px;
-  }
-}
+
 

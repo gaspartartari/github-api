@@ -1,14 +1,2 @@
-.button {
-    width: auto;
-    height: 40px;
-    border-radius: 4px;
-    font-size: 16px;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    background: var(--bg-primary-color);
-    color: var(--text-tertiary-color);
-}
+
 
